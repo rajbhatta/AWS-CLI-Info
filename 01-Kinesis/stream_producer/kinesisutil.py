@@ -1,13 +1,6 @@
 import json
 
 import boto3 as boto3
-import kinesis as kinesis
-import sys
-
-from random import seed
-from random import randint
-import time
-import random
 
 class KinesisUtil():
 
