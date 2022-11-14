@@ -1,3 +1,4 @@
 
 .DS_Store
 01-Kinesis/stream_producer/__pycache__/kinesisutil.cpython-38.pyc
+01-Kinesis/stream_consumer/__pycache__/consumer.cpython-38.pyc
