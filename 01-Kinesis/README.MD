@@ -1,4 +1,4 @@
-# 1. Creating Kinesis Stream and Producer using Kinesis #
+# 1. Creating Kinesis Stream and Producer using Python and AWS CLI #
 ```js
 aws kinesis create-stream --stream-name streamrb --shard-count 2
 ```
@@ -85,7 +85,7 @@ if __name__ == "__main__":
 ## Output ##
 <img src="img/3.png"/>
 
-# Code subscribe from producer in Kinesis #
+# Code to read from producer in Kinesis #
 ```python
 
 stream_consumer/consumer.py
