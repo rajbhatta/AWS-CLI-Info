@@ -40,7 +40,7 @@ aws s3 cp s3://sensor-data /User/rajbhatta/Desktop/s3-transfer --recursive
 aws s3 cp s3://sensor-data/Log1.xml s3://machine-data/
 ```
 
-### Synchronizing file between folder and S3 ###
+### 8. Synchronizing file between folder and S3 ###
 ```aws
 aws s3 sync /User/rajbhatta/Desktop/s3-transfer s3://sensor-data/ --exclude * --include *.xml
 ```
